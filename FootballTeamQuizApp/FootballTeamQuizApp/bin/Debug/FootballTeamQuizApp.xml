@@ -1,0 +1,136 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+FootballTeamQuizApp
+</name>
+</assembly>
+<members>
+<member name="T:FootballTeamQuizApp.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:FootballTeamQuizApp.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:FootballTeamQuizApp.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:FootballTeamQuizApp.My.Resources.Resources.Arizona">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FootballTeamQuizApp.My.Resources.Resources.Atlanta">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FootballTeamQuizApp.My.Resources.Resources.Baltimore">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FootballTeamQuizApp.My.Resources.Resources.Buffalo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FootballTeamQuizApp.My.Resources.Resources.Carolina">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FootballTeamQuizApp.My.Resources.Resources.Chicago">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FootballTeamQuizApp.My.Resources.Resources.Dallas">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FootballTeamQuizApp.My.Resources.Resources.Denver">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FootballTeamQuizApp.My.Resources.Resources.Detroit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FootballTeamQuizApp.My.Resources.Resources.GreenBay">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FootballTeamQuizApp.My.Resources.Resources.Houston">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FootballTeamQuizApp.My.Resources.Resources.Indianapolis">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FootballTeamQuizApp.My.Resources.Resources.Jacksonville">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FootballTeamQuizApp.My.Resources.Resources.Miami">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FootballTeamQuizApp.My.Resources.Resources.Minnesota">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FootballTeamQuizApp.My.Resources.Resources.NewEngland">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FootballTeamQuizApp.My.Resources.Resources.NewOrleans">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FootballTeamQuizApp.My.Resources.Resources.Philadelphia">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FootballTeamQuizApp.My.Resources.Resources.Pittsburgh">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FootballTeamQuizApp.My.Resources.Resources.SanDiego">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FootballTeamQuizApp.My.Resources.Resources.Seattle">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FootballTeamQuizApp.My.Resources.Resources.TampaBay">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>

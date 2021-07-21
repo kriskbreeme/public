@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{476AA883-DA09-4A10-99E6-17AF498166DD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>FootballTeamQuizApp.My.MyApplication</StartupObject>
+    <RootNamespace>FootballTeamQuizApp</RootNamespace>
+    <AssemblyName>FootballTeamQuizApp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>FootballTeamQuizApp.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>FootballTeamQuizApp.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bearslogo.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\falconslogo.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lionslogo.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\packerslogo.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pantherslogo.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vikingslogo.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\49erslogo.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Atlanta.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carolina.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chicago.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Detroit.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GreenBay.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minnesota.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\San Francisco.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arizona.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Baltimore.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Buffalo.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dallas.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Denver.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Houston.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kansas City.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\New YorkJ.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NewOrleans.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Philadelphia.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Seattle.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dolphins.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jacksonville.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NewEngland.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Washington.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SanDiego.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pittsburgh.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TampaBay.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Indianapolis.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Miami.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
