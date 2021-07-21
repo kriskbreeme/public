@@ -1,0 +1,24 @@
+
+
+h1{
+
+color:Green;
+font-size: 22pt;
+
+}
+
+
+table, td, th
+{
+border:1px solid green;
+}
+th
+{
+background-color:green;
+color:white;
+}
+
+body
+{
+background-color:red;
+}
